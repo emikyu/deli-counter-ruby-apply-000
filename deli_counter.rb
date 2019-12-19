@@ -9,3 +9,9 @@ def line(queue)
     puts q_string
   end
 end
+
+# adds a new customer joining at end of line & announces their position
+
+def take_a_number(queue, name)
+  
+end
