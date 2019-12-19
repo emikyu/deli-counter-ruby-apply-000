@@ -18,4 +18,11 @@ def take_a_number(queue, name)
 end
 
 # calls out the next person in line & removes them from front
-# 
+# E.g., "Currently serving Grace."
+def now_serving(queue)
+  if queue.empty?
+    puts "There is nobody waiting to be served!"
+  else
+    puts 
+  end
+end
