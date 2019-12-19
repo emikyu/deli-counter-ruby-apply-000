@@ -11,7 +11,8 @@ def line(queue)
 end
 
 # adds a new customer joining at end of line & announces their position
-
+# E.g., "Welcome, Matz. You are number 3 in line."
 def take_a_number(queue, name)
-  
+  queue << name
+  puts "Welcome, #{name}. You are number #{queue.length} in line."
 end
