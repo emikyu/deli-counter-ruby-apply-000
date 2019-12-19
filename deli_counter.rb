@@ -16,3 +16,6 @@ def take_a_number(queue, name)
   queue << name
   puts "Welcome, #{name}. You are number #{queue.length} in line."
 end
+
+# calls out the next person in line & removes them from front
+# 
