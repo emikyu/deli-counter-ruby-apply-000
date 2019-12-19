@@ -5,6 +5,7 @@ def line(queue)
     puts "The line is currently empty."
   else
     q_string = "The line is currently:"
-    queue.
+    queue.each_with_index { |name, i| q_string += " #{i + 1}. #{name}" }
+    puts q_string
   end
 end
